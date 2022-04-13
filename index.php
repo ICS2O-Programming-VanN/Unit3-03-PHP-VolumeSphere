@@ -32,7 +32,8 @@
         $radius = $_POST['radius']; // Input for the radius
 				$volume = (4 / 3) * pow($radius, 3) * pi(); // Calculations for Volume
 				$volume = number_format($volume, 2); // Rounds to nearest hundredth 
-				echo "<br><br><h4>The Volume of this Sphere is " . $volume . "cm<sup>3</sup></h4><br>"; // Outputs Volume
+        echo "<br><br><h4>With a radius of " . $radius . "cm;</h4>";
+				echo "<h4>The Volume of this Sphere is " . $volume . "cm<sup>3</sup></h4><br>"; // Outputs Volume
 			}
         echo '<br><br><img src="./images/volume-sphere.png" alt="Sphere Formula">' // Image
 		?>
