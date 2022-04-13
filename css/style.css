@@ -1,0 +1,20 @@
+/* Color */
+
+body {
+	background-color: rgb(214, 255, 251);
+}
+
+h1 {
+	background-color: #f95d5d;
+  color: rgb(255, 223, 179);
+  padding: 30px;
+}
+
+p {
+	color: rgb(173, 173, 255);
+	font-weight: bold;
+}
+
+h4 {
+  background-color: #f2ffb3;
+}
