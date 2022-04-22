@@ -23,7 +23,7 @@
 		?>
 		<!-- Text field and button (Takes Input) -->
 		<form method = "post">
-      Radius (cm): <input type="float" min="0" name="radius"> <br>
+      Radius (cm): <input type="number" step="any" min="0" name="radius"> <br>
 			<br><br>
 			<input type ="submit" name ="submit"  value="Calculate Volume">
 		<!-- Calculations for Volume (With User Input) -->
